@@ -17,7 +17,7 @@ function App() {
     <div className="App">
       <NavBar />
       <Switch>
-        <Route exact path='/photography-portfolio' component={HomePage}></Route>
+        <Route exact path='https://denis-andrei.github.io/photography-portfolio' component={HomePage}></Route>
         <Route exact path='/photography-portfolio/contact' component={ContactPage}></Route>
         <Route exact path='/photography-portfolio/about-me' component={AboutPage}></Route>
         <Route exact path='/photography-portfolio/portofolio' component={PortofolioPage}></Route>
