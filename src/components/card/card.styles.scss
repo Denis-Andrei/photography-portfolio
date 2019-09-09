@@ -13,36 +13,27 @@
         &:hover{
                 opacity: 1;
         }
-        
-        
-        
+
     }
     .card-info{
-        
         text-align: center;
         cursor: default;
         
             h1{
-                
-                // margin: 0;
                 align-self: center;
                 font-weight: 400;
             }
             h3{
-                
                 color: white;
-                // margin: 0;
                 font-style: italic;
                 padding: 1rem 5rem;
+
                 @media only screen and (max-width: 75em){
                     padding: 2rem 1rem;
                 }
-            
-            
         }
-        
-  
     }
+    
     @media only screen and (any-hover: none){
         img{
             opacity: 1;

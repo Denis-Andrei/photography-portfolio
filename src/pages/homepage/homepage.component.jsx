@@ -20,7 +20,6 @@ const  HomePage = () => {
       <AboutMe title={'about me'}/>
       <Contact title={'contact'}/>
       
-      
     </div>
   );
 }

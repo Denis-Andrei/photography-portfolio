@@ -8,12 +8,10 @@ const Btn = ({name, onClickFunc, activeClass})=>{
     return(
     
         <button 
-            className={`button filter-btn ${activeClass === name ? 'active' : ''}`}
+            className={`button   ${activeClass === name ? 'active' : ''}`}
             onClick= {onClickFunc}
             value={name}
-            
-            >
-                
+        > 
             {name}
         </button>
        

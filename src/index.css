@@ -21,7 +21,7 @@ body {
       font-size: 50%;
     }
 }
-@media only screen and (max-width: 75em){ /*1600 px */
+@media only screen and (max-width: 75em){ /*1200 px */
   html{
     font-size: 45%;
   }

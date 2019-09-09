@@ -9,6 +9,7 @@ const Image = ({image, open}) =>{
             
                 <img className='image' id={image} src={require(`../../assets/images/${image}.jpg`)} alt={image} onClick={open}/>
                 <h3 className='h3-description'>Lorem ipsum dolor.</h3>
+                
         </div>
     )
 }

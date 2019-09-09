@@ -5,10 +5,5 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
     grid-template-rows: repeat(3, 40rem);
-    
     grid-gap: 5rem 1rem ;
-
-    @media only screen and (max-width: 37.5em){
-        grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
-    }
 }

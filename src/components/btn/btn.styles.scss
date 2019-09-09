@@ -1,46 +1,18 @@
 @import '../../assets/scss/_variables.scss';
-// .btn-box{
-//     display: flex;
-//     align-items: center;
-//     cursor: pointer;
-//     padding: 1rem 2rem 1rem 1rem;
-//     outline: none;
-//     color: white;
-//     background: inherit;
-//     border: 1px solid white;
-//     font-size: $font-size-small;
-//     font-style: italic;
-    
-    
-            
-        .filter-btn{
-            cursor: pointer;
-            background: $color-5;
-            color:  white;
-            border: none;
-            outline: none;
-            margin: 0 1rem;
-            
-            padding: 2rem;
-            opacity: 0.8;
-            
-            
+.button{
+    cursor: pointer;
+    background: $color-5;
+    color:  white;
+    border: none;
+    outline: none;
+    margin: 0 1rem;
+    padding: 2rem;
 
-            &:hover{
-                opacity: 1;
-            }
-            
-    
-        }
+    &:hover{
+        background: $color-1;
+    }
+}
 
-        
-
-       
-        
-        
-    
-    
-// }
 .active{
     opacity: 1;
     background: $color-1;

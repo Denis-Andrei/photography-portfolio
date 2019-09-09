@@ -5,8 +5,7 @@
     text-align: center;
     
     h1{
-        color: $color-1;
-        
+        color: $color-1; 
     }
     .img-box{
 
@@ -14,10 +13,7 @@
             width: 12rem;
             height: 12rem;
             border: 3px solid $color-1;
-            border-radius: 50%; 
-
-           
-            
+            border-radius: 50%;     
         }
 
         &::before, &::after{
@@ -29,11 +25,8 @@
             margin: 10px;
             transform: translateY(-5rem);
         }
-
-       
     }
     
-
     h3{
         width: 60%;
         margin: 3rem auto;

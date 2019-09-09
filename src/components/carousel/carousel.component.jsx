@@ -10,24 +10,17 @@ import { Carousel } from 'react-responsive-carousel/';
 
 const DemoCarousel = () => {
     
-    
-    
     return(
         <div className='header-carousel'>
             <Carousel>
-            <div>
+            
                 <img  src={Slide1} alt='photographer'/>
-                
-            </div>
-            <div>
                 <img  src={Slide2} alt='wedding-couple'/>
-            </div>
-            <div>
                 <img  src={Slide3} alt='landscape'/>
-                </div>
+                
             </Carousel>
             </div>
-        
+
     )
 
 }

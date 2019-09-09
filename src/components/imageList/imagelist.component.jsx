@@ -10,13 +10,9 @@ const ImageList = ({data, open}) =>{
         <div className='image-list'>
             {
                data[0].listImages.map(imgTitle =>
-               
                     <Image id={imgTitle} image={imgTitle}  open={open} /> 
-
                )
-                
             }
-           
         </div>
     )
 }

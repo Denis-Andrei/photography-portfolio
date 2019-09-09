@@ -7,7 +7,7 @@ import Footer from './components/footer/footer.component';
 import HomePage from './pages/homepage/homepage.component';
 import ContactPage from './pages/contact/contact.component';
 import AboutPage from './pages/about/about.component'
-import PortofolioPage from './pages/portofolio/portofolio.component';
+import PortofolioPage from './pages/portfolio/portfolio.component';
 import SinglePage from './pages/single/single.component';
 
 
@@ -20,9 +20,9 @@ function App() {
         <Route exact path='/' component={HomePage}></Route>
         <Route exact path='/contact' component={ContactPage}></Route>
         <Route exact path='/about-me' component={AboutPage}></Route>
-        <Route exact path='/portofolio' component={PortofolioPage}></Route>
-        <Route exact path='/portofolio/:id' component={PortofolioPage}></Route>
-        <Route exact path='/portofolio/:id/:id1' component={SinglePage}></Route>
+        <Route exact path='/portfolio' component={PortofolioPage}></Route>
+        <Route exact path='/portfolio/:id' component={PortofolioPage}></Route>
+        <Route exact path='/portfolio/:id/:id1' component={SinglePage}></Route>
       </Switch>
       <Footer />
       

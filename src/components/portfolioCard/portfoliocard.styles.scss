@@ -1,6 +1,5 @@
 @import '../../assets/scss/_variables.scss';
 .portofolio-card{
-    
     height: 50rem;
     position: relative;
     
@@ -10,12 +9,10 @@
         height: 100%;
         background-position: center;
         transition: all .6s;
-        
-        
-        
     }
-    .filter-btn{
-        width: 80%;
+
+    .button{
+        width: 60%;
         background: $color-1;
         color: white;
         padding: 2rem;
@@ -24,24 +21,21 @@
         left: 50%;
         transform: translate(-50%, -50%);
         opacity: 0;
-        
-        
-
     }
 
     &:hover{
         .portofolio-card-img{
              filter: blur(2px);
-            }
-        .filter-btn{
-            
+        }
+
+        .button{
             opacity: 0.9;
             z-index: 1000;
         }
         
     }
     @media only screen and (any-hover: none){
-        .filter-btn{
+        .button {
             width: 50%;
             font-size: 2rem;
             background: rgba(0, 0, 0, 0.4);

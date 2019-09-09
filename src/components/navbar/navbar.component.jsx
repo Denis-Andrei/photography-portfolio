@@ -11,7 +11,7 @@ const NavBar = () =>{
                 <Link exact to='/contact'>Contact</Link>
                 <Link exact to='/'><img src={Logo} alt="logo"/></Link>
                 <Link exact to='/about-me'>About</Link>
-                <Link exact to='/portofolio'>Portfolio</Link>
+                <Link exact to='/portfolio'>Portfolio</Link>
             
         </div>
     )

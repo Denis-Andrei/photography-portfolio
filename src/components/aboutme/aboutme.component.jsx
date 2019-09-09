@@ -1,13 +1,16 @@
 import React from 'react';
 import './aboutme.styles.scss';
 import MeImg from '../../assets/images/me.jpg';
+import { Link } from 'react-router-dom';
 
 const AboutMe = ({title}) =>{
     return(
         <div className='about-me'>
             <h1>{title ? title.toUpperCase() : title}</h1>
             <div className="img-box">
-                <img src={MeImg} alt=""/>
+                <Link to='/about-me'>
+                    <img src={MeImg} alt=""/>
+                </Link>
             </div>
             
 

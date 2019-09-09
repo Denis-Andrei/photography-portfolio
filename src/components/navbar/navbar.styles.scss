@@ -6,14 +6,11 @@
     top: 0;
     background: white;
     list-style-type: none;
-    
-    
     display: flex;
     justify-content: space-around;
     align-items: center;
-   
     z-index: 1000;
-    
+
    a{
        text-decoration: none;
        color: #828282;
@@ -29,6 +26,7 @@
         z-index: 10;
         top: 3rem;
         border-radius: 30%;
+        
         @media only screen and (max-width: 37.5em){
             width: 7rem;
         }

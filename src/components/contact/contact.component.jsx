@@ -13,7 +13,7 @@ import Snap from '../../assets/social-icons/snapchat.svg';
 const Contact = ({title}) =>{
     
     return(
-        <div className='contact-box' id='#contact'>
+        <div className='contact-box'>
             
                 <h1>{title ? title.toUpperCase() : title}</h1>
                 
