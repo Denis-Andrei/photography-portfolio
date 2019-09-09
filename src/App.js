@@ -17,12 +17,12 @@ function App() {
     <div className="App">
       <NavBar />
       <Switch>
-        <Route exact path='/photography-portfolio' component={HomePage}></Route>
-        <Route exact path='/photography-portfolio/contact' component={ContactPage}></Route>
-        <Route exact path='/photography-portfolio/about-me' component={AboutPage}></Route>
-        <Route exact path='/photography-portfolio/portofolio' component={PortofolioPage}></Route>
-        <Route exact path='/photography-portfolio/portofolio/:id' component={PortofolioPage}></Route>
-        <Route exact path='/photography-portfolio/portofolio/:id/:id1' component={SinglePage}></Route>
+        <Route exact path='/' component={HomePage}></Route>
+        <Route exact path='/contact' component={ContactPage}></Route>
+        <Route exact path='/about-me' component={AboutPage}></Route>
+        <Route exact path='/portofolio' component={PortofolioPage}></Route>
+        <Route exact path='/portofolio/:id' component={PortofolioPage}></Route>
+        <Route exact path='/portofolio/:id/:id1' component={SinglePage}></Route>
       </Switch>
       <Footer />
       
