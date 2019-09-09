@@ -5,7 +5,7 @@ import data from '../../assets/data/data';
 import Jumbotron from '../../components/jumbotron/jumbotron.component';
 import JumboImg from '../../assets/images/jumbo-portofolio.jpg';
 import FilterBox from '../../components/filterbox/filterbox.component';
-import CardList from '../../components/cardlist/cardlist.component';
+import PortofolioCardList from '../../components/portofolio-card-list/portofoliocard-list.component';
 
 class PortofolioPage extends Component{
     constructor(props){
@@ -33,7 +33,7 @@ class PortofolioPage extends Component{
         <div className='portofolio-page'>
             <Jumbotron title={'portofolio'} image={JumboImg}/>
             <FilterBox onClick={this.onBtnClick} active={this.state.btnVal} name={this.state.categories} props={this.state.props}/>
-            <CardList cards={filteredCards}/>
+            <PortofolioCardList  cards={filteredCards} />
         </div>
     )
 }
