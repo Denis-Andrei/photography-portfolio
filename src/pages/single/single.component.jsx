@@ -47,7 +47,7 @@ class  SinglePage extends Component {
     return(
         <div className='single-page' >
             
-            <img className='header-image' src={require(`../../assets/images/${filteredItems[0].image}.JPG`)} alt={filteredItems[0].image}></img>
+            <img className='header-image' src={require(`../../assets/images/${filteredItems[0].image}.jpg`)} alt={filteredItems[0].image}></img>
 
             <div className='fitered-images'>
                 <Welcome title={filteredItems[0].Ptitle}/>
@@ -60,7 +60,7 @@ class  SinglePage extends Component {
                         
                         <Modal open={this.state.isOpen} onClose={this.onCloseModal} styles={bg} >
                             
-                            <img style={styles} className='modal-image' src={require(`../../assets/images/${this.state.imgName}.JPG`)} alt=""/>
+                            <img style={styles} className='modal-image' src={require(`../../assets/images/${this.state.imgName}.jpg`)} alt=""/>
                         </Modal>
                         :
                         ''

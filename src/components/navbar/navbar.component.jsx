@@ -7,9 +7,9 @@ const NavBar = () =>{
     return(
         <div className='nav-bar'>
             
-                <Link exact to='/' >Home</Link>
+                <Link exact to='/photography-portfolio' >Home</Link>
                 <Link exact to='/contact'>Contact</Link>
-                <Link exact to='/'><img src={Logo} alt="logo"/></Link>
+                <Link exact to='/photography-portfolio'><img src={Logo} alt="logo"/></Link>
                 <Link exact to='/about-me'>About</Link>
                 <Link exact to='/portofolio'>Portfolio</Link>
             
