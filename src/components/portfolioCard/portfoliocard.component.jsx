@@ -11,7 +11,7 @@ const PortfolioCard = ({img, name, title, match}) =>{
         <div className='portofolio-card'>
             <img className='portofolio-card-img' src={require(`../../assets/images/${img}.jpg`)} alt={`${name}`}/>
            
-            <Link to={`${match.params.id ?  `${match.url}/${name}` : `${match.url}/${title}/${name}` }`} > 
+            <Link to={`${match.params.id ?  `${match.url}/${name}` : `${match.url}/${title}/${name}` }`} target='_blank' > 
                 <Btn name={name.toUpperCase()}/>
             </Link>
             
