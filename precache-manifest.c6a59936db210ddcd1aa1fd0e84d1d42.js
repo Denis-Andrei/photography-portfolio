@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f87401ed4ed7803c8d761589c3e912fe",
+    "revision": "f69dc7e803dbfe06a2008d9af57ad368",
     "url": "/photography-portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/photography-portfolio/static/css/2.a3aa5f24.chunk.css"
   },
   {
-    "revision": "3cdd7cf611fea4ff0f4c",
+    "revision": "23f85d631d0ca03eb3ea",
     "url": "/photography-portfolio/static/css/main.e074e9b5.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/photography-portfolio/static/js/2.c97e6fb1.chunk.js"
   },
   {
-    "revision": "3cdd7cf611fea4ff0f4c",
-    "url": "/photography-portfolio/static/js/main.4409ffb9.chunk.js"
+    "revision": "23f85d631d0ca03eb3ea",
+    "url": "/photography-portfolio/static/js/main.8652fad1.chunk.js"
   },
   {
     "revision": "be209f0386a858f23e1a",
@@ -84,8 +84,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/photography-portfolio/static/media/jumbo-portofolio.58c0e935.jpg"
   },
   {
-    "revision": "7d1af9035cd347cc633f5d857e8b7cb6",
-    "url": "/photography-portfolio/static/media/logo.7d1af903.jpg"
+    "revision": "d8e456b2ca4da9a8abea5ce5f9d62f64",
+    "url": "/photography-portfolio/static/media/logo.d8e456b2.jpg"
   },
   {
     "revision": "c5863af761d1292fe65e89974773bea7",
