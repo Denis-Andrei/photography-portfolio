@@ -1,0 +1,12 @@
+.single-page{
+    margin: 5rem auto;
+
+    .header-image{
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+    }
+    .modal-image{
+        opacity: 0.4;
+    }
+}

@@ -1,0 +1,45 @@
+$default-font-size: 2rem;
+$font-size-big: 4rem;
+$font-size-small: 1.6rem;
+
+
+/* Color Theme Swatches in Hex */
+$color-1: #E8A99B;
+$color-2: #FFB0AB;
+$color-3: #FFCCB8;
+$color-4: #E8B99B;
+$color-5: #FFD5AB;
+
+
+
+$color-gray: #828282;
+
+$color-facebook: #3C5A99;
+$color-twitter: #1DA1F2;
+$color-instagram: #C13584;
+$color-google: #DB4437;
+$color-snapchat: #FFFC00;
+
+
+
+h1{
+    font-size: $font-size-big;
+    font-weight: 300;
+}
+
+h3{
+    font-size: $default-font-size;
+    font-weight: 300;
+}
+
+
+//RESPONSIVE
+
+@mixin responsive($breakpoint) {
+    @if $breakpoint == desktop{
+        @media only screen and (max-width: 100em)
+            {@content}
+        
+    }
+}
+

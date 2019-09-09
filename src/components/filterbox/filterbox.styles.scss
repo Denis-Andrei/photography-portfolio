@@ -1,0 +1,35 @@
+@import '../../assets/scss/_variables.scss';
+.filter-box{
+   
+    background: #f3f3f3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media only screen and (max-width: 56.25em){
+        flex-direction: column;
+    }
+    
+       .filter-heading{
+           margin-right: 2rem;
+           color: $color-gray;
+       }
+
+       
+       .filter-btn-box{
+        @media only screen and (max-width: 56.25em){
+            margin-bottom: 5rem;
+        }
+        @media only screen and (max-width: 37.5em){
+            
+            .filter-btn{
+                margin: 1px;
+                font-size: 1.6rem;
+                padding: 2rem 1.3rem; 
+            }
+        }
+       }
+        
+        
+        
+    
+}

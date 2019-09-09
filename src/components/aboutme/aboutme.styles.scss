@@ -1,0 +1,44 @@
+@import '../../assets/scss/_variables.scss';
+.about-me{
+    width: 80%;
+    margin: 10rem auto;
+    text-align: center;
+    
+    h1{
+        color: $color-1;
+        
+    }
+    .img-box{
+
+        img{
+            width: 12rem;
+            height: 12rem;
+            border: 3px solid $color-1;
+            border-radius: 50%; 
+
+           
+            
+        }
+
+        &::before, &::after{
+            content: "";
+            display: inline-block;
+            width: 20%;
+            height: 2px;
+            background: $color-1;
+            margin: 10px;
+            transform: translateY(-5rem);
+        }
+
+       
+    }
+    
+
+    h3{
+        width: 60%;
+        margin: 3rem auto;
+        @media only screen and (max-width: 56.25em){
+            width: 100%;
+        }
+    }
+}

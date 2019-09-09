@@ -1,0 +1,133 @@
+@import '../../assets/scss/_variables.scss';
+.card-box{
+    width: 80%;
+    margin: 5rem auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 35rem;
+    img{
+        height: 100%;
+        width:  50rem;
+        opacity: 0.8;
+        display: block;
+        &:hover{
+                opacity: 1;
+        }
+        
+        
+        
+    }
+    .card-info{
+        
+        text-align: center;
+        cursor: default;
+        
+            h1{
+                
+                // margin: 0;
+                align-self: center;
+                font-weight: 400;
+            }
+            h3{
+                
+                color: white;
+                // margin: 0;
+                font-style: italic;
+                padding: 1rem 5rem;
+                @media only screen and (max-width: 75em){
+                    padding: 2rem 1rem;
+                }
+            
+            
+        }
+        
+  
+    }
+    @media only screen and (any-hover: none){
+        img{
+            opacity: 1;
+        }
+    }
+   
+}
+
+.card-box-left{
+    display: grid;
+    grid-template-columns: min-content 1fr;
+   
+    img{ 
+        grid-column: 1/span 1;  
+    }
+
+    .card-info-left{
+        grid-column: 2/ span 1;
+    }
+}
+
+.card-box-right{
+    display: grid;
+    grid-template-columns: 1fr min-content;
+    
+    img{
+        
+        grid-column: 2/span 1;
+        grid-row: 1/1; 
+    }
+
+    .card-info-right{
+        grid-column: 1/ span 1;
+        grid-row: 1/1;
+    }
+}
+
+.card-box .weddings{
+    
+        background: $color-2;
+    
+    h1{
+        color: $color-5;
+        
+    }
+}
+.card-box .portraits{
+    background: $color-3;
+
+    h1{
+       color: $color-2;
+    }
+}
+.nature{
+    background: $color-4;
+    h1{
+        color: $color-5;
+     }
+}
+.cars{
+    background: $color-5;
+    h1{
+        color: $color-gray;
+     }
+}
+.others{
+    background: $color-1;
+    h1{
+        color: $color-5;
+     }
+
+}
+
+@media only screen and (max-width: 56.25em){
+    .card-box-left, .card-box-right{
+        grid-template-columns: 1fr;
+
+        img{
+            width: 100%;
+        }
+
+        .card-info-left, .card-info-right{
+            grid-column: 1/ span 1;
+            grid-row: 1/span 1; 
+        }
+    }   
+    
+}

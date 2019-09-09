@@ -1,0 +1,37 @@
+@import '../../assets/scss/_variables.scss';
+.nav-bar{
+    font-size: $default-font-size;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: white;
+    list-style-type: none;
+    
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+    z-index: 100;
+    
+   a{
+       text-decoration: none;
+       color: #828282;
+
+       &:hover{
+           color: $color-1;
+       }
+   }
+
+    img{
+        width: 10rem;
+        position: relative;
+        z-index: 10;
+        top: 3rem;
+        border-radius: 30%;
+        @media only screen and (max-width: 37.5em){
+            width: 7rem;
+        }
+        
+    }
+}

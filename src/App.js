@@ -1,24 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {Switch , Route} from 'react-router-dom';
+import NavBar from './components/navbar/navbar.component';
+
+import Footer from './components/footer/footer.component';
+import HomePage from './pages/homepage/homepage.component';
+import ContactPage from './pages/contact/contact.component';
+import AboutPage from './pages/about/about.component'
+import PortofolioPage from './pages/portofolio/portofolio.component';
+import SinglePage from './pages/single/single.component';
+// import Category from './pages/category/category.pages';
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar />
+      <Switch>
+        <Route exact path='/' component={HomePage}></Route>
+        <Route exact path='/contact' component={ContactPage}></Route>
+        <Route exact path='/about-me' component={AboutPage}></Route>
+        <Route exact path='/portofolio' component={PortofolioPage}></Route>
+        <Route exact path='/portofolio/:id' component={PortofolioPage}></Route>
+        <Route exact path='/portofolio/:id/:id1' component={SinglePage}></Route>
+      </Switch>
+      <Footer />
+      
     </div>
   );
 }

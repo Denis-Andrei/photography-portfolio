@@ -1,0 +1,29 @@
+@import '../../assets/scss/_variables.scss';
+.jumbotron-box{
+    max-width: 500rem;
+    
+    img{
+        height: 50rem;
+        width: 100%;
+        object-fit: cover;
+        background-position: left;
+    
+    }
+
+    .jumbotron-h1{
+        background-color: $color-1;
+        color: white;
+        opacity: 0.9;
+        width: 35%;  
+        margin: -10rem auto 10rem auto;
+
+        text-align: center;
+
+        @media only screen and (max-width: 37.5em){
+            width: 60%;
+        }
+        
+    }
+}
+
+

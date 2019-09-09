@@ -1,0 +1,9 @@
+@import '../../assets/scss/_variables.scss';
+.cardlist-portofolio{
+    width: 90%;
+    margin: 10rem auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(45rem, 1fr));
+    grid-template-rows: repeat(auto-fit, 50rem);
+    grid-gap: 1rem;
+}
