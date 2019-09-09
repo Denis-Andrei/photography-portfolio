@@ -33,7 +33,7 @@ const CardList = ({cards}) =>{
             
             cards.map( user =>{
                 
-                if(window.location.href === 'http://localhost:3000/' || window.location.href === 'https://denis-andrei.github.io/photography-portfolio' ){
+                if(window.location.href === 'http://localhost:3000/' || window.location.href === 'https://denis-andrei.github.io' ){
                     if((user.id % 2 !== 0) && (user.id <= 5)){
                         
                         return <Card id={user.id} title={user.title} description={user.description} side={'left'} sideImg={user.image}/>
