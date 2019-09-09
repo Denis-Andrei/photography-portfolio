@@ -7,7 +7,7 @@ const Image = ({image, open}) =>{
     return(
         <div className='image-component'>
             
-                <img className='image' id={image} src={require(`../../assets/images/${image}.JPG`)} alt={image} onClick={open}/>
+                <img className='image' id={image} src={require(`assets/images/${image}.JPG`)} alt={image} onClick={open}/>
                 <h3 className='h3-description'>Lorem ipsum dolor.</h3>
         </div>
     )

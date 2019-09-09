@@ -3,11 +3,11 @@ import './contact.styles.scss';
 import Btn from '../btn/btn.component';
 
 
-import Fb from '../../assets/social-icons/facebook.svg';
-import Twitter from '../../assets/social-icons/twitter.svg';
-import Insta from '../../assets/social-icons/instagram.svg';
-import GoogleP from '../../assets/social-icons/google-plus.svg';
-import Snap from '../../assets/social-icons/snapchat.svg';
+import Fb from 'assets/social-icons/facebook.svg';
+import Twitter from 'assets/social-icons/twitter.svg';
+import Insta from 'assets/social-icons/instagram.svg';
+import GoogleP from 'assets/social-icons/google-plus.svg';
+import Snap from 'assets/social-icons/snapchat.svg';
 
 
 const Contact = ({title}) =>{

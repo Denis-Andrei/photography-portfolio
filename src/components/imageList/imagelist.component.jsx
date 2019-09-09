@@ -44,7 +44,7 @@
 
 import React from 'react';
 import './imagelist.styles.scss';
-import Image from '../image/image.component';
+import Image from 'image/image.component';
 
 
 const ImageList = ({data, open}) =>{
