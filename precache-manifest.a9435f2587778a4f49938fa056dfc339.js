@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d96e8a6ad53468fc0512d2e5beac6b81",
+    "revision": "f87401ed4ed7803c8d761589c3e912fe",
     "url": "/photography-portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/photography-portfolio/static/css/2.a3aa5f24.chunk.css"
   },
   {
-    "revision": "314955eaccfd1a21aeae",
+    "revision": "3cdd7cf611fea4ff0f4c",
     "url": "/photography-portfolio/static/css/main.e074e9b5.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/photography-portfolio/static/js/2.c97e6fb1.chunk.js"
   },
   {
-    "revision": "314955eaccfd1a21aeae",
-    "url": "/photography-portfolio/static/js/main.ff6eb4b8.chunk.js"
+    "revision": "3cdd7cf611fea4ff0f4c",
+    "url": "/photography-portfolio/static/js/main.4409ffb9.chunk.js"
   },
   {
     "revision": "be209f0386a858f23e1a",
