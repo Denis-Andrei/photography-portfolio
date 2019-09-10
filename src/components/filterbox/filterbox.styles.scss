@@ -18,17 +18,18 @@
        
        .filter-btn-box{
 
-            @media only screen and (max-width: 56.25em){
-                margin-bottom: 5rem;
-            }
+            
             
             @media only screen and (max-width: 37.5em){
                 
-                .filter-btn{
-                    margin: 1px;
+                .button{
+                    margin: 2px;
                     font-size: 1.6rem;
                     padding: 2rem 1.3rem; 
                 }
+            }
+            @media only screen and (max-width: 56.25em){
+                margin-bottom: 5rem;
             }
        }
         
