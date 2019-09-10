@@ -10,7 +10,7 @@ const Card = ({side, title , sideImg, description}) =>{
     return(
         <div className={`card-box card-box-${side}`}>
             
-            <Link to='/portfolio'><img src={require(`../../assets/images/${sideImg}.jpg`)} alt="wedding"/></Link>
+            <Link to='/portfolio'><img src={require(`../../assets/images/homepage/${sideImg}.jpg`)} alt="wedding"/></Link>
 
             <div className={`card-info card-info-${side} ${title}`}>
                 

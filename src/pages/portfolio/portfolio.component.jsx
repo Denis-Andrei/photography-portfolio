@@ -30,6 +30,7 @@ class PortofolioPage extends Component{
     render(){
         const {props, categories, btnVal, cards} = this.state;
         const filteredCards = cards.filter(obj => obj.title.toLowerCase().includes(btnVal.toLowerCase()));
+        console.log(filteredCards);
         
         return(
             <div className='portfolio-page'>
